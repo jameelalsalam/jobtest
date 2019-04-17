@@ -5,6 +5,6 @@ source(here::here("R", "sourced_file.R"))
 
 print(sourced_x)
 
-source_fun(x)
+msg <- source_fun(x)
 
 
