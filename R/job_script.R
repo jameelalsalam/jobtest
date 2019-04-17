@@ -1,6 +1,6 @@
 
 x <- 1
 
-#source('R/sourced_file.R')
+source(here::here("R", "sourced_file.R"))
 
-print(getwd())
+print(sourced_x)
